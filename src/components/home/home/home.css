@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;700&family=Roboto&display=swap');
+
+:root {
+  --amarelo-alegria: #FED766;
+  --amarelo-botao: #f8ba00;
+  --azul-tristeza: #3FA7D6;
+  --azul-botao: #008ecf;
+  --vermelho-raiva: #EE6352;
+  --vermelho-botao: #eb1b00;
+  --verde-nojo: #59CD90;
+  --verde-botao: #00cf61;
+  --roxo-medo: #8F6593;
+  --roxo-botao: #860092;
+  --laranja-empatia: #f79e38;
+  --laranja-botao: #f88400;
+  --rosa-romance: #FFAAEA;
+  --rosa-botao: #fd00be;
+  --marrom-nostalgia: #413325;
+  --marrom-botao: #492600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Readex Pro';
+}
+
+.HomePage {
+    background-color: #fff;
+  }
+  
+  
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  
+.HomeHeader {
+  background-color: #6c757d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  
+}
+
+.h1 {
+  font-size: 70px;
+  text-shadow: 5px 0px 6px #000;
+  width: 400px;
+  grid-area: 1 / 1 / 5 / 2;
+  text-align: center;
+  margin-top: 35%;
+  margin-left: 80px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.descricaoInicial {
+  font-weight: 200;
+  grid-area: 1 / 3 / 6 / 6;
+  position: relative;
+  top: 220px;
+  /* margin-top: 45%;
+  margin-right: 80px;
+  margin-bottom: 100px; */
+  font-size: 30px;
+}
+
+.botoes {
+  grid-area: 6 / 1 / 5 / 6;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  display: block;
+  margin-left: 10px;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px 0px #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bnt-alegria {
+  background-color: var(--amarelo-alegria);
+}
+
+.bnt-alegria:hover {
+  color: #fff;
+  background-color: var(--amarelo-botao);
+  box-shadow: 0px 0px 8px 0px var(--amarelo-botao);
+}
+
+.bnt-tristeza {
+  background-color: var(--azul-tristeza);
+}
+
+.bnt-tristeza:hover {
+  color: #fff;
+  background-color: var(--azul-botao);
+  box-shadow: 0px 0px 8px 0px var(--azul-botao);
+}
+
+.bnt-raiva {
+  background-color: var(--vermelho-raiva);
+}
+
+.bnt-raiva:hover {
+  color: #ffff;
+  background-color: var(--vermelho-botao);
+  box-shadow: 0px 0px 8px 0px var(--vermelho-botao);
+}
+
+.bnt-nojo {
+  background-color: var(--verde-nojo); 
+}
+
+.bnt-nojo:hover {
+  color: #fff;
+  background-color: var(--verde-botao);
+  box-shadow: 0px 0px 8px 0px var(--verde-botao);
+}
+
+.bnt-medo {
+  background-color: var(--roxo-medo);
+}
+
+.bnt-medo:hover {
+  color: #fff;
+  background-color: var(--roxo-botao);
+  box-shadow: 0px 0px 8px 0px var(--roxo-botao);
+}
+
+.bnt-empatia {
+  background-color: var(--laranja-empatia);
+}
+
+.bnt-empatia:hover {
+  color: #fff;
+  background-color: var(--laranja-botao);
+  box-shadow: 0px 0px 8px 0px var(--laranja-botao);
+}
+
+.bnt-romance {
+  background-color: var(--rosa-romance);
+}
+
+.bnt-romance:hover {
+  color: #fff;
+  background-color: var(--rosa-botao);
+  box-shadow: 0px 0px 8px 0px var(--rosa-botao);
+}
+
+.bnt-nostalgia {
+  background-color: var(--marrom-nostalgia);
+  margin-right: 7px;
+}
+
+.bnt-nostalgia:hover {
+  color: #fff;
+  background-color: var(--marrom-botao);
+  box-shadow: 0px 0px 8px 0px var(--marrom-botao);
+}
+
+img {
+  margin-bottom: 70px;
+}
+
+.img2 {
+  /* margin-right: 70px; */
+  position: relative;
+  right: 120px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+
+.voltar {
+  position: relative;
+  bottom: 130px;
+  right: 90px;
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0px 3px 5px #000;
+}
+
+.voltar2 {
+  position: relative;
+  bottom: 240px;
+  right: 40px;
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0px 3px 5px #000;
+  margin-left: 10px;
+}
+
+.title-alegria {
+  background-color: var(--amarelo-alegria);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-tristeza {
+  background-color: var(--azul-tristeza);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-raiva {
+  background-color: var(--vermelho-raiva);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-nojo {
+  background-color: var(--verde-nojo);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-medo {
+  background-color: var(--roxo-medo);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-empatia {
+  background-color: var(--laranja-empatia);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-romance {
+  background-color: var(--rosa-romance);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.title-nostalgia {
+  background-color: var(--marrom-nostalgia);
+  min-height: 100vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.texto {
+  width: 500px;
+}
